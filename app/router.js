@@ -5,5 +5,5 @@
  */
 module.exports = (app) => {
   const { router, controller } = app;
-  router.get("/project/getTemplate", controller.project.getTemplate);
+  router.get("/project/template", controller.project.getTemplate);
 };
